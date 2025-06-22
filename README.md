@@ -47,13 +47,3 @@ Gets the Markdown content for a specific roadmap.
 ```
 
 **Returns**: The complete Markdown content of the specified roadmap.
-
-### 4. Testing with any MCP Client
-
-Connect any MCP client to the server endpoint:
-- Local: `http://localhost:8787/mcp`
-- Production: `https://developer-roadmaps-mcp.yashikota.workers.dev/mcp`
-
-## Usage with MCP Clients
-
-This server can be used with any MCP-compatible client. The server exposes an HTTP endpoint at `/mcp` that handles MCP protocol communication.
